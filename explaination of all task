@@ -1,0 +1,208 @@
+# AI & Machine Learning Internship Projects
+
+This repository contains the projects developed as part of my AI and Machine Learning internship/training.
+
+## Projects Included
+
+### Task 1 – Customer Service Chatbot
+
+A customer service chatbot that retrieves the most relevant answer from a customer-service knowledge base.
+
+**Features:**
+
+* Customer question answering
+* TF-IDF and similarity-based retrieval
+* Knowledge base stored in CSV format
+* Dynamic knowledge-base update functionality
+* Flask-based web interface
+
+**Technologies Used:**
+
+* Python
+* Flask
+* Scikit-learn
+* TF-IDF
+* CSV
+
+---
+
+### Task 2 – Multimodal AI Assistant
+
+A multimodal AI assistant that can process both text questions and uploaded images.
+
+**Features:**
+
+* Text-based question answering
+* Image upload and analysis
+* AI-generated responses
+* Conversation history
+* API-based generative AI integration
+* Streamlit interface
+
+**Technologies Used:**
+
+* Python
+* Streamlit
+* Google Gemini API
+* Generative AI
+* Image processing
+
+---
+
+### Task 3 – Medical Q&A Chatbot
+
+A medical question-answering chatbot developed using the MedQuAD dataset.
+
+**Features:**
+
+* Medical question answering
+* Relevant answer retrieval
+* Text similarity-based search
+* Basic medical entity recognition
+* Detection of diseases, symptoms and treatments
+* Relevance score
+* Matched-question display
+* Streamlit user interface
+
+**Dataset:**
+MedQuAD (Medical Question Answering Dataset)
+
+**Technologies Used:**
+
+* Python
+* Streamlit
+* CSV
+* Text similarity
+* Regular expressions
+* Keyword-based entity recognition
+
+---
+
+### Task 4 – arXiv Research Chatbot
+
+A research paper chatbot that helps users search and explore research papers from the arXiv dataset.
+
+**Features:**
+
+* Research paper search
+* Relevance-based retrieval
+* Paper abstract display
+* Author information
+* Research categories
+* arXiv ID
+* Relevance score
+* Concept visualization
+* Streamlit interface
+
+**Technologies Used:**
+
+* Python
+* Streamlit
+* TF-IDF
+* Natural Language Processing
+* Data visualization
+
+---
+
+### Task 5 – Sentiment Analysis Chatbot
+
+A chatbot that analyzes the sentiment of user-provided text.
+
+**Features:**
+
+* Text input
+* Sentiment classification
+* Positive, negative and neutral sentiment detection
+* User-friendly chatbot interface
+
+**Technologies Used:**
+
+* Python
+* Natural Language Processing
+* TextBlob
+* NLTK
+* Streamlit
+
+---
+
+### Task 6 – Multilingual Chatbot
+
+A multilingual chatbot designed to communicate with users in multiple languages.
+
+**Features:**
+
+* Multilingual question answering
+* Language detection/selection
+* Language switching
+* Conversation history
+* Natural Language Processing
+* User-friendly interface
+
+**Technologies Used:**
+
+* Python
+* Streamlit
+* Transformers
+* Natural Language Processing
+* Machine Learning
+
+---
+
+## Installation
+
+Clone or download this repository and install the required dependencies for the individual project.
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Projects
+
+For Streamlit-based projects, run:
+
+```bash
+python -m streamlit run app.py
+```
+
+For Flask-based projects, run:
+
+```bash
+python app.py
+```
+
+The exact command may vary depending on the project.
+
+## Project Structure
+
+```text
+AI-ML-Internship/
+│
+├── Task-1-Customer-Service-Chatbot/
+│
+├── Task-2-Multimodal-AI-Assistant/
+│
+├── Task-3-Medical-QA-Chatbot/
+│
+├── Task-4-arXiv-Research-Chatbot/
+│
+├── Task-5-Sentiment-Analysis-Chatbot/
+│
+└── Task-6-Multilingual-Chatbot/
+```
+
+## Objective
+
+The main objective of these projects was to gain practical experience in:
+
+* Artificial Intelligence
+* Machine Learning
+* Natural Language Processing
+* Information Retrieval
+* Generative AI
+* Chatbot Development
+* Data Processing
+* Streamlit and Flask application development
+
+## Disclaimer
+
+These projects were developed for educational and internship training purposes.
